@@ -1,0 +1,251 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+<style>
+form {
+      background-color: #f2f2f2;
+	  border: 1px solid #FFBB00;
+      padding: 20px;
+	  font-family: arial;
+	  font-weight: bold;
+	  font-size: 13px;
+    }
+	
+.Dates {
+display: inline-block;
+}
+
+input[type="text"] {
+width:250px;
+height: 30px;
+}
+input[type="email"] {
+width:250px;
+height: 30px;
+}
+label{
+    display: inline-block;
+    float: left;
+    width: 250px;
+    text-align: left;
+	}
+input [type="text"] {
+display: inline-block;
+float: left;
+border: 1px solid #f9f9f9;
+}
+
+  table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+th {
+background-color: #FFBB00;
+      border: 1px solid #FFBB00;
+	  color: white;
+	  font-size: 16px;
+      padding: 8px;
+      text-align: left;
+}
+tr {
+  border-bottom: 1px solid #FFBB00;
+}
+tr.input[type="text"] {
+width:600px;
+height: 20px;
+display: block;
+}
+
+td {
+padding: 5px 20px;
+}
+
+input[type="submit"] {
+width: 90px;
+height: 35px;
+border: 1px solid #FFBB00;
+color: #FFBB00;
+border-radius: 5px;
+padding: 10px 10px 10px 10px;
+vertical-align: middle;
+}
+  </style>
+
+</head>
+<body>
+<form>
+<div class="names">
+<label for="first name">First Name</label>
+<input type="text" placeholder="First Name"> (max 30 characters A-Z and A-Z)<br><br>
+<label for="last name">Last Name</label>
+<input type="text" placeholder="Last Name"> (max 30 characters A-Z and A-Z)<br><br>
+</div>
+
+    <div class="Dates">
+    <label for="date">Date of Birth</label>
+        <select id="date" name="date">
+          <option value="">Date</option>
+          <option value="day">1</option>
+          <option value="day">2</option>
+          <option value="day">3</option>
+		  <option value="day">4<option>
+		  <option value="day">5</option>
+		  <option value="day">6</option>
+		  <option value="day">7</option>
+		  <option value="day">8</option>
+		  <option value="day">9</option>
+		  <option value="day">10</option>
+		  <option value="day">11</option>
+		  <option value="day">12</option>
+		  <option value="day">13</option>
+		  <option value="day">14</option>
+		  <option value="day">15</option>
+		  <option value="day">16</option>
+		  <option value="day">17</option>
+		  <option value="day">18</option>
+		  <option value="day">19</option>
+		  <option value="day">20</option>
+		  <option value="day">21</option>
+		  <option value="day">22</option>
+		  <option value="day">23</option>
+		  <option value="day">24</option>
+		  <option value="day">25</option>
+		  <option value="day">26</option>
+		  <option value="day">27</option>
+		  <option value="day">28</option>
+		  <option value="day">29</option>
+		  <option value="day">30</option>
+		  <option value="day">31</option>
+        </select>
+      </div> 
+	  <div class="Dates">
+        <select id="month" name="month">
+		<option value="month">Month</option>
+          <option value="month">January</option>
+          <option value="month">February</option>
+          <option value="month">March</option>
+          <option value="month">April</option>
+          <option value="month">May</option>
+          <option value="month">June</option>
+          <option value="month">July</option>
+          <option value="month">August</option>
+          <option value="month">September</option>
+          <option value="month">October</option>
+          <option value="month">November</option>
+		  <option value="month">December</option>
+        </select>
+      </div>
+	   <div class="Dates">
+        <select id="year" name="month">
+		<option value="month">Year</option>
+          <option value="year">1995</option>
+          <option value="year">1996</option>
+          <option value="year">1997</option>
+		  <option value="year">1998</option>
+          <option value="year">1999</option>
+          <option value="year">2000</option>
+		  <option value="year">2001</option>
+          <option value="year">2002</option>
+          <option value="year">2003</option>
+		  <option value="year">2004</option>
+		  <option value="year">2005</option>
+		  <option value="year">2006</option>
+        </select>
+      </div><br><br>
+	  
+  <label for="email">Email ID</label>
+<input type="email" name="email" placeholder="Email ID"><br><br>
+
+<label for="gender">Gender</label>
+ <label>
+      <input type="radio" name="option" value="Male">
+      Male
+    </label>
+<label>
+      <input type="radio" name="option" value="Female">
+      Female
+    </label><br><br>
+  
+  <label for="address">Address</label>
+  <textarea rows="7" cols="90"></textarea><br><br>
+  
+  <label for="pin code">Pin Code</label>
+  <input type="text" name="pin code" placeholder="Pin Code"><br><br>
+  
+  <label for="city">City</label>
+  <input type="text" name="city" placeholder="City"><br><br>
+  
+  <label for="country">Country</label>
+  <input type="text" name="country" placeholder="Country"><br><br>
+  
+  <div class="checkboxes">
+  <label for="hobbies">Hobbies</label>
+ <label>
+      <input type="checkbox" name="option" value="drawing">
+      Drawing
+    </label>
+<label>
+     <input type="checkbox" name="option" value="singing">
+      Singing
+    </label>
+<label>
+     <input type="checkbox" name="option" value="dancing">
+      Dancing
+    </label>
+<label>
+     <input type="checkbox" name="option" value="Sketching">
+      Sketching
+    </label><br><br>
+	<label for=qualification>Qualification</label>
+	</div>
+	<br><br>
+	
+	<table>
+    <tr>
+      <th>SI.No.</th>
+	  <th>Examination</th>
+      <th>Board</th>
+      <th>Percentage</th>
+	  <th>Year of Passing</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td><input type="text" name="examination" placeholder="Examination"></td>
+      <td><input type="text" name="board" placeholder="Board"></td>
+	  <td><input type="text" name="percentage" placeholder="Percentage"></td>
+	  <td><input type="text" name="yearofpassing" placeholder="Year of Passing"></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td><input type="text" name="examination" placeholder="Examination"></td>
+      <td><input type="text" name="board" placeholder="Board"></td>
+	  <td><input type="text" name="percentage" placeholder="Percentage"></td>
+	  <td><input type="text" name="yearofpassing" placeholder="Year of Passing"></></td>
+    </tr>
+    <tr>
+      <td>3</td>
+<td><input type="text" name="examination" placeholder="Examination"></td>
+      <td><input type="text" name="board" placeholder="Board"></td>
+	  <td><input type="text" name="percentage" placeholder="Percentage"></td>
+	  <td><input type="text" name="yearofpassing" placeholder="Year of Passing"></></td>
+    </tr>
+  </table><br><br>
+  
+  <label for="courses">Courses</label>
+ <label>
+      <input type="radio" name="option" value="bca">
+      BCA
+    </label>
+<label>
+     <input type="radio" name="option" value="mca">
+      MCA
+    </label><br><br>
+	
+	<input type="submit" value="Send Now"> 
+	<br><br>
+	
+	
+</body>
+
+</html>
